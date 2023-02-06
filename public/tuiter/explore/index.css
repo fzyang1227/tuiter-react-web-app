@@ -1,0 +1,85 @@
+#content {
+    margin: 16px;
+}
+
+#topbar {
+    display: flex;
+}
+
+#search {
+    border: none;
+    border-radius: 12px;
+    width: 93%;
+    height: 25px;
+    background-color: rgb(255,255,255,.1);
+    color: white;
+    outline: none;
+    padding-left: 20px;
+}
+
+#gear {
+    fill: rgb(29,161,242);
+    position: absolute;
+    right: 12px;
+}
+
+#hyperlink {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    border-bottom: 1px solid rgb(47, 51, 54)
+}
+
+#hyperlink a{
+    padding: 16px;
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+    text-decoration: none;
+}
+
+#hyperlink a:first-child {
+    color: rgb(29,161,242);
+}
+
+#posts {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding-top: 10px;
+}
+
+.wd-post {
+    display: flex;
+    flex-direction: row;
+    padding-top: 6px;
+    padding-bottom: 54px;
+    border-top: 1px solid rgb(47, 51, 54);
+    
+}
+
+.wd-topic p {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+p.wd-white {
+    color: white;
+    font-size: 13px;
+}
+
+img.wd-img-post {
+    border: none;
+    border-radius: 12px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 16px;
+    float: right;
+}
+
+.wd-flex-row {
+    display: flex;
+    flex-direction: row;
+    column-gap: 3px;
+}

@@ -1,0 +1,83 @@
+body {
+    font-size: 15px;
+}
+
+#bookmark {
+    color: white;
+    font-size: 20px;
+}
+
+#user {
+    color: lightgrey;
+    font-size: 13px;
+}
+
+.wd-left-side {
+    position: relative;
+    left: 16px;
+    top: 12px;
+}
+
+.wd-bottom-border {
+    padding-bottom: 9px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.wd-avatar-img {
+    border-radius: 50%;
+    width: 48px;
+    float: left
+}
+
+.wd-bookmark-content {
+    clear: both;
+    padding-top: 12px;
+}
+
+.wd-grid-right {
+    float: left;
+    padding-left: 12px;
+    max-width: 506px;
+}
+
+.wd-subtext {
+    color: grey;
+}
+
+.wd-content-img {
+    width: 504px;
+    height: 264px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.wd-link-content {
+    margin-top: 12px;
+    border: 1px solid lightgrey;
+    border-radius: 12px;
+}
+
+.wd-link-text {
+    padding: 12px;
+}
+
+.wd-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 12px;
+}
+
+.wd-icon-img {
+    width: 24px;
+    height: 24px;
+}
+
+.wd-number {
+    padding-left: 6px; /* +3 from margin and flex col gap */
+    vertical-align: middle; 
+}
+
+#heart-text {
+    color:red;
+}
