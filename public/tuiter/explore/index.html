@@ -10,93 +10,206 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <div id="content">
-            <div id="topbar">
-                <input id="search" placeholder="Search Tuiter" autocomplete="off"/>
-
-                <a href="explore-settings.html">
-                <svg id="gear" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 13.616v-3.232c-1.651-.587-2.694-.752-3.219-2.019v-.001c-.527-1.271.1-2.134.847-3.707l-2.285-2.285c-1.561.742-2.433 1.375-3.707.847h-.001c-1.269-.526-1.435-1.576-2.019-3.219h-3.232c-.582 1.635-.749 2.692-2.019 3.219h-.001c-1.271.528-2.132-.098-3.707-.847l-2.285 2.285c.745 1.568 1.375 2.434.847 3.707-.527 1.271-1.584 1.438-3.219 2.02v3.232c1.632.58 2.692.749 3.219 2.019.53 1.282-.114 2.166-.847 3.707l2.285 2.286c1.562-.743 2.434-1.375 3.707-.847h.001c1.27.526 1.436 1.579 2.019 3.219h3.232c.582-1.636.75-2.69 2.027-3.222h.001c1.262-.524 2.12.101 3.698.851l2.285-2.286c-.744-1.563-1.375-2.433-.848-3.706.527-1.271 1.588-1.44 3.221-2.021zm-12 2.384c-2.209 0-4-1.791-4-4s1.791-4 4-4 4 1.791 4 4-1.791 4-4 4z"/></svg>
-                </a>
+        <div class="container">
+        <!-- left side-->
+        <div class="row mt-4">
+            <div class="col-1 col-xl-2 col-xxl-2">
+                <ul class="list-group">
+                    <li class="list-group-item"><i class="fa-brands fa-twitter"></i></li>
+                    <li class="list-group-item">
+                        <div class="row"><i class="fa-solid fa-house-chimney col-auto col-xl-2 col xxl-2 my-auto"></i>
+                        <div class="d-none d-xl-block col-10">Home</div></div></li>
+                    <li class="list-group-item active">
+                        <div class="row"><i class="fa-solid fa-hashtag col-auto col-xl-2 col xxl-2 my-auto"></i>
+                        <div class="d-none d-xl-block col-10">Explore</div></div></li>
+                    <li class="list-group-item">
+                        <div class="row"><i class="fa-solid fa-bell col-auto col-xl-2 col xxl-2 my-auto"></i>
+                        <div class="d-none d-xl-block col-10">Notifications</div></div></li>
+                    <li class="list-group-item">
+                        <div class="row"><i class="fa-solid fa-envelope col-auto col-xl-2 col xxl-2 my-auto"></i>
+                        <div class="d-none d-xl-block col-10">Messages</div></div></li>
+                    <li class="list-group-item">
+                        <div class="row"><i class="fa-solid fa-bookmark col-auto col-xl-2 col xxl-2 my-auto"></i>
+                        <div class="d-none d-xl-block col-10">Bookmarks</div></li>
+                    <li class="list-group-item">
+                        <div class="row"><i class="fa-solid fa-list col-auto col-xl-2 col xxl-2 my-auto"></i>
+                            <div class="d-none d-xl-block col-10">List</div></li>
+                    <li class="list-group-item">
+                        <div class="row"><i class="fa-solid fa-user col-auto col-xl-2 col xxl-2 my-auto"></i>
+                        <div class="d-none d-xl-block col-10">Profile</div></li>
+                    <li class="list-group-item">
+                        <div class="row"><i class="fa-solid fa-circle-plus col-auto col-xl-2 col xxl-2 my-auto"></i>
+                        <div class="d-none d-xl-block col-10">More</div></li>
+                    <li class="list-group-item border-0 p-2">
+                        <div class="d-grid gap-2">
+                        <button type="button" class="btn btn-primary" style="border-radius: 20px">Tuit</button>
+                    </div></li>
+                 </ul>
             </div>
 
-            <div id="hyperlink">
-                <a id="firstlink" href="#">For You</a>
-                <a href="#">Trending</a>
-                <a href="#">COVID-19</a>
-                <a href="#">News</a>
-                <a href="#">Sports</a>
-                <a href="#">Entertainment</a>
+            <!-- main content-->
+            <div class="col-11 col-lg-8 col-xl-7 col-xxl-7 text-black">
+                <div id="topbar" class="container-fluid d-flex align-items-center flex-nowrap justify-content-between">
+                    <div class="position-absolute m-3"><i class="fa-sharp fa-solid fa-magnifying-glass text-muted"></i></div>
+                    <input class="rounded-pill form-control p-2 px-5" placeholder="Search Tuiter" autocomplete="off"/></span>
+                    <div class="position-right align-items center">
+                        <a href="explore-settings.html">
+                            <i class="fas fa-gear fa-2x" style="color: rgb(29,161,242)"></i></a>
+                        </div>
+                </div>
+
+                <div class="py-2 m-2 d-flex">
+                    <a class="border border-bottom-0 m-0 col text-decoration-none" href="#"><div class="text-center" style="color: rgba(0,0,0,.6)">For You</div></a>
+                    <a class="border-bottom m-0 col text-decoration-none" href="#"><div class="text-center" style="color: rgb(29,161,242)">Trending</div></a>
+                    <a class="border-bottom m-0 col text-decoration-none" href="#"><div class="text-center" style="color: rgb(29,161,242)">News</div></a>
+                    <a class="border-bottom m-0 col text-decoration-none" href="#"><div class="text-center" style="color: rgb(29,161,242)">Sports</div></a>
+                    <a class="border-bottom m-0 col text-decoration-none" href="#"><div class="text-center" style="color: rgb(29,161,242)">Entertainment</div></a>
+                </div>
+
+                <div class="container-fluid">
+                    <div class="card border">
+                        <div class="card">
+                            <img class="card-img-top img-fluid" src=
+                            "https://techcrunch.com/wp-content/uploads/2019/09/Starship-Mk1-Day.jpg">
+                            
+                            <div class="card-img-overlay d-flex align-items-end card-inverse p-0 px-2">
+                                <h1 class="text-stroke text-white">
+                                    SpaceX's Starship
+                                </h1>
+                            </div>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <div class="d-flex justify-content-between">
+                                    <div class="col">
+                                        <small>Web Development</small>
+                                        <div class="d-flex align-items-center flex-nowrap">
+                                            <div class="h6 m-0 me-1">ReactJS</div>
+                                            <i class="fa-solid fa-circle-check"></i>
+                                            <small class="ps-2"> - 2h</small>
+                                        </div>
+                                        <p class="m-0"><b>React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs</b></p>
+                                    </div>
+                                    <div class="ratio-1x1">
+                                        <img src="https://files.readme.io/320345b-React_Logo_256x256.png" class="img-fluid" style="max-width: 100%; width: 100px; height: 100px">
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="d-flex justify-content-between">
+                                    <div class="col">
+                                        <div class="d-flex align-items-center flex-nowrap">
+                                            <div class="h6 m-0 me-1">JavaScript</div>
+                                            <i class="fa-solid fa-circle-check"></i>
+                                            <small class="ps-2"> - 2h</small>
+                                        </div>
+                                        <p class="m-0"><b>JavaScript is a programming language that can run on browsers as well as desktops</b></p>
+                                        <small class="text-muted">123K Tweets</small>
+                                    </div>
+                                    <div class="ratio-1x1">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" class="img-fluid" style="max-width: 100%; width: 100px; height: 100px">
+                                    </div>
+                                </div>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
             </div>
 
-            <div id="posts">
-                <div class="wd-topic">
-                    <p>Trending in Science</p>
-                    <p class="wd-white">Ice Cap Melting</p>
-                    <p>7.1k Tuits</p>
-                </div>
-
-                <div class="wd-topic">
-                    <p>Sports Tranding</p>
-                    <p class="wd-white">Irving Mavs</p>
-                    <p>167k Tuits</p>
-                </div>
-
-                <div class="wd-topic">
-                    <p>Trending in United States</p>
-                    <p class="wd-white">Student Debt</p>
-                    <p>18k Tuits</p>
-                </div>
-
-                <div class="wd-post">
-                    <div class="wd-topic">
-                        <div class="wd-flex-row">
-                            <p class="wd-white">The New York Times</p>
-                            <p>yesterday</p>
-                        </div>
-                        <p class="wd-white">These are the best dog breeds to adopt right now</p>
-                    </div>
-                    <img class="wd-img-post" src="https://cdn.shopify.com/s/files/1/0453/0824/8214/files/Yorkshire-Terrier-Health-WoofWell-Breed-Specific-Dog-Supplements_1600x.png?v=1621360885">
-
-                </div>
-
-                <div class="wd-post">
-                    <div class="wd-topic">
-                        <div class="wd-flex-row">
-                            <p class="wd-white">Exercise Daily</p>
-                            <p>2d ago</p>
-                        </div>
-                        <p class="wd-white">How to truly diet your way into your perfect body</p>
-                    </div>
-                    <img class="wd-img-post" src="https://m.media-amazon.com/images/I/81thVgZndyL._CR0,0,1081,1081_UX256.jpg">
-
-                </div>
-
-                <div class="wd-post">
-                    <div class="wd-topic">
-                        <div class="wd-flex-row">
-                            <p>COVID-19</p>
-                            <p>Live</p>
-                        </div>
-                        <p class="wd-white">Are we completely out of the pandemic yet?</p>
-                    </div>
-                    <img class="wd-img-post" src="https://cdn-icons-png.flaticon.com/512/2813/2813265.png">
-
-                </div>
-
-                <div class="wd-post">
-                    <div class="wd-topic">
-                        <div class="wd-flex-row">
-                            <p>Science</p>
-                            <p>Last Week</p>
-                        </div>
-                        <p class="wd-white">The Happiness Podcast -- How will we be happy?</p>
-                    </div>
-                    <img class="wd-img-post" src="https://cachedimages.podchaser.com/256x256/aHR0cHM6Ly9kM3Qzb3pmdG1kbWgzaS5jbG91ZGZyb250Lm5ldC9wcm9kdWN0aW9uL3BvZGNhc3RfdXBsb2FkZWRfbm9sb2dvLzIxNTMxNDcvMjE1MzE0Ny0xNTY1ODA4NDExMDQ3LTc2OGU3MjQ1OWE3MzkuanBn/aHR0cHM6Ly93d3cucG9kY2hhc2VyLmNvbS9pbWFnZXMvbWlzc2luZy1pbWFnZS5wbmc%3D">
-
-                </div>
-
-
+            <!-- right side -->
+            <div class="d-none d-lg-block col-3">
+                <ul class="list-group">
+                    <li class="list-group-item">Who to Follow</li>
+                    <li class="list-group-item p-0">
+                        <div class="container-fluid d-flex justify-content-between align-items-center p-2">
+                            <div class="container-fluid d-flex p-0">
+                            <div class="me-1">
+                            <img class="wd-icons" src="https://1.bp.blogspot.com/-eCUUbw2eP60/U936ZWug1qI/AAAAAAAAAEc/rWMUPxV3c4A/s1600/java.png">
+                            </div>
+                            <div>
+                                <div class="d-flex align-items-center flex-nowrap">
+                                    <div class="h6 m-0 me-1">Java</div>
+                                    <i class="fa-solid fa-circle-check"></i>
+                                </div>
+                                <small>@Java</small>
+                            </div>
+                            </div>
+                            <div><span class="badge bg-primary rounded-pill"><p class="m-1">Follow</p></span></div></div>
+                        </li>
+                    <li class="list-group-item p-0">
+                        <div class="container-fluid d-flex justify-content-between align-items-center p-2">
+                            <div class="container-fluid d-flex p-0">
+                            <div class="me-1">
+                            <img class="wd-icons" src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/j3dbh6kok0dket3uz2vy">
+                            </div>
+                            <div>
+                                <div class="d-flex align-items-center flex-nowrap">
+                                    <div class="h6 m-0 me-1">Relativity Space</div>
+                                    <i class="fa-solid fa-circle-check"></i>
+                                </div>
+                                <small>@relativityspace</small>
+                            </div>
+                            </div>
+                            <div><span class="badge bg-primary rounded-pill"><p class="m-1">Follow</p></span></div></div>
+                        </li>
+                    <li class="list-group-item p-0">
+                        <div class="container-fluid d-flex justify-content-between align-items-center p-2">
+                            <div class="container-fluid d-flex p-0">
+                            <div class="me-1">
+                            <img class="wd-icons" src="https://cdn.worldvectorlogo.com/logos/virgin-1.svg">
+                            </div>
+                            <div>
+                                <div class="d-flex align-items-center flex-nowrap">
+                                    <div class="h6 m-0 me-1">Virgin Galactic</div>
+                                    <i class="fa-solid fa-circle-check"></i>
+                                </div>
+                                <small>@virgingalatic</small>
+                            </div>
+                            </div>
+                            <div><span class="badge bg-primary rounded-pill"><p class="m-1">Follow</p></span></div></div>
+                        </li>
+                    <li class="list-group-item p-0">
+                        <div class="container-fluid d-flex justify-content-between align-items-center p-2">
+                            <div class="container-fluid d-flex p-0">
+                            <div class="me-1">
+                            <img class="wd-icons" src="https://styles.redditmedia.com/t5_k5gc6/styles/profileIcon_ydyqarnwt7s91.png?width=256&height=256&frame=1&auto=webp&crop=256:256,smart&s=77a410a48a906e94c2c113eafe0299c9bccd6d27">
+                            </div>
+                            <div>
+                                <div class="d-flex align-items-center overflow-hidden flex-nowrap">
+                                    <div class="h6 m-0 me-1">Nasa</div>
+                                    <i class="fa-solid fa-circle-check"></i>
+                                </div>
+                                <small>@NASA</small>
+                            </div>
+                            </div>
+                            <div><span class="badge bg-primary rounded-pill"><p class="m-1">Follow</p></span></div></div>
+                        </li>
+                   <li class="list-group-item p-0">
+                        <div class="container-fluid d-flex justify-content-between align-items-center p-2">
+                            <div class="container-fluid d-flex p-0">
+                            <div class="me-1">
+                            <img class="wd-icons" src="https://climatescape.org/static/3aac0ee0e7eb6597bcd2447e173e69ce/91bed/mVYj_YOd6i7fEl6cqcwQ-K8X1_SuDBJfN92ZnzOlul8.png">
+                            </div>
+                            <div>
+                                <div class="d-flex align-items-center flex-nowrap">
+                                    <div class="m-0 me-1">Tesla</div>
+                                    <i class="fa-solid fa-circle-check"></i>
+                                </div>
+                                <small>@Tesla</small>
+                            </div>
+                            </div>
+                            <div><span class="badge bg-primary rounded-pill"><p class="m-1">Follow</p></span></div></div>
+                        </li>
+                    
+                 </ul>
             </div>
+
         </div>
+    </div>
+        
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </body>
 </html>
