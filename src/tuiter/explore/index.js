@@ -17,11 +17,11 @@ const ExploreComponent = () => {
        </div>
      </div>
      <div className="d-flex justify-content-between m-1 py-1">
-        <a className="p-0 col text-decoration-none" href="#/"><div className="py-2 text-center bg-primary rounded-top border border-secondary text-white">For You</div></a>
-        <a className="p-0 col text-decoration-none" href="#/"><div className="py-2 text-center rounded-top border-bottom border-secondary text-black">Trending</div></a>
-        <a className="p-0 col text-decoration-none" href="#/"><div className="py-2 text-center rounded-top border-bottom border-secondary text-black">News</div></a>
-        <a className="p-0 col text-decoration-none" href="#/"><div className="py-2 text-center rounded-top border-bottom border-secondary text-black">Sports</div></a>
-        <a className="p-0 col text-decoration-none" href="#/"><div className="py-2 text-center rounded-top border-bottom border-secondary text-black">Entertainment</div></a>
+        <a className="p-0 col text-decoration-none" href="./"><div className="py-2 text-center bg-primary rounded-top border border-secondary text-white">For You</div></a>
+        <a className="p-0 col text-decoration-none" href="./"><div className="py-2 text-center rounded-top border-bottom border-secondary text-black">Trending</div></a>
+        <a className="p-0 col text-decoration-none" href="./"><div className="py-2 text-center rounded-top border-bottom border-secondary text-black">News</div></a>
+        <a className="p-0 col text-decoration-none" href="./"><div className="py-2 text-center rounded-top border-bottom border-secondary text-black">Sports</div></a>
+        <a className="p-0 col text-decoration-none" href="./"><div className="py-2 text-center rounded-top border-bottom border-secondary text-black">Entertainment</div></a>
     </div>
      <div className="position-relative mb-2">
        <img src="https://techcrunch.com/wp-content/uploads/2019/09/Starship-Mk1-Day.jpg" className="w-100" alt="hello"/>
