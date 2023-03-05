@@ -1,0 +1,21 @@
+[
+    {
+      "_id": 123,
+      "userName": "NASA",
+      "handle": "NASA",
+      "avatarIcon": "https://styles.redditmedia.com/t5_k5gc6/styles/profileIcon_ydyqarnwt7s91.png?width=256&height=256&frame=1&auto=webp&crop=256:256,smart&s=77a410a48a906e94c2c113eafe0299c9bccd6d27"
+    },
+    {
+      "_id": 234,
+      "userName": "Tesla",
+      "handle": "tesla",
+      "avatarIcon": "https://climatescape.org/static/3aac0ee0e7eb6597bcd2447e173e69ce/91bed/mVYj_YOd6i7fEl6cqcwQ-K8X1_SuDBJfN92ZnzOlul8.png"
+    },
+    {
+      "_id": 345,
+      "userName": "SpaceX",
+      "handle": "SpaceX",
+      "avatarIcon": "https://infosec-jobs.com/media/cache/bb/cc/bbccd9053fcace2a080d3d539e04079a.jpg"
+    }
+   ]
+   
