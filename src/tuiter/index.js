@@ -1,5 +1,5 @@
 import React from "react";
-import HomeComponent from "./home-page";
+import HomeComponent from "./home";
 import NavigationSidebar from "./navigation-sidebar";
 import WhoToFollowList from "./who-to-follow-list";
 import whoReducer from "./reducers/who-reducer";
