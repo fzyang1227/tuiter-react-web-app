@@ -14,10 +14,10 @@ function App() {
                  element={<Labs/>}/>
           <Route path="/hello"
                  element={<HelloWorld/>}/>
-          <Route path="/explore"
-                 element={<Explore/>}/>
           <Route path="/tuiter"
                  element={<Tuiter/>}/>
+          <Route path="/explore"
+                 element={<Explore/>}/>
         </Routes>
       </div>
     </BrowserRouter>
