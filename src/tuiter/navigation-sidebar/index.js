@@ -9,10 +9,10 @@ const NavigationSidebar = (
             <div className="list-group">
             <a className="list-group-item" href="./">
                 <i className="bi bi-twitter"></i></a>
-            <a className={`list-group-item ${active === 'home'?'active':''}`} href="/tuiter">
+            <a className={`list-group-item ${active === 'home'?'active':''}`} href="/tuiter/">
                 <div className="row"><i className="bi bi-house-fill col-auto col-xl-2 col-xxl-2 my-auto"></i>
                 <div className="d-none d-xl-block col-10">Home</div></div></a>
-            <a className={`list-group-item ${active === 'explore'?'active':''}`} href="/explore/">
+            <a className={`list-group-item ${active === 'explore'?'active':''}`} href="/explore">
                 <div className="row"><i className="bi bi-hash col-auto col-xl-2 col-xxl-2 my-auto"></i>
                 <div className="d-none d-xl-block col-10">Explore</div></div></a>
             <a className={`list-group-item ${active === 'labs'?'active':''}`} href="/">
