@@ -9,12 +9,15 @@ const NavigationSidebar = (
             <div className="list-group">
             <a className="list-group-item" href="./">
                 <i className="bi bi-twitter"></i></a>
-            <a className={`list-group-item ${active === 'home'?'active':''}`} href="./">
+            <a className={`list-group-item ${active === 'home'?'active':''}`} href="/tuiter">
                 <div className="row"><i className="bi bi-house-fill col-auto col-xl-2 col-xxl-2 my-auto"></i>
                 <div className="d-none d-xl-block col-10">Home</div></div></a>
-            <a className={`list-group-item ${active === 'explore'?'active':''}`} href="./">
+            <a className={`list-group-item ${active === 'explore'?'active':''}`} href="/explore">
                 <div className="row"><i className="bi bi-hash col-auto col-xl-2 col-xxl-2 my-auto"></i>
                 <div className="d-none d-xl-block col-10">Explore</div></div></a>
+            <a className={`list-group-item ${active === 'labs'?'active':''}`} href="/">
+                <div className="row"><i className="bi bi-star-fill col-auto col-xl-2 col-xxl-2 my-auto"></i>
+                <div className="d-none d-xl-block col-10">Labs</div></div></a>
             <a className={`list-group-item ${active === 'notifications'?'active':''}`} href="./">
                 <div className="row"><i className="bi bi-bell-fill col-auto col-xl-2 col-xxl-2 my-auto"></i>
                 <div className="d-none d-xl-block col-10">Notifications</div></div></a>
@@ -31,7 +34,7 @@ const NavigationSidebar = (
                 <div className="row"><i className="bi bi-person-fill col-auto col-xl-2 col-xxl-2 my-auto"></i>
                 <div className="d-none d-xl-block col-10">Profile</div></div></a>
             <a className={`list-group-item ${active === 'more'?'active':''}`} href="./">
-                <div className="row"><i className="bi bi-circle-fill col-auto col-xl-2 col-xxl-2 my-auto"></i>
+                <div className="row"><i className="bi bi-three-dots col-auto col-xl-2 col-xxl-2 my-auto"></i>
                 <div className="d-none d-xl-block col-10">More</div></div></a>
         </div>
         <div className="d-grid mt-2">
